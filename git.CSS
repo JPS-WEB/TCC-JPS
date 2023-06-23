@@ -5,8 +5,8 @@
     
     
     html{
-        width: 100%;
-        height: 100%;
+        width: 120%;
+        height: 150%;
     }
     
     body{
@@ -14,14 +14,7 @@
     
     }
     
-    .menu{
-        border: 4px solid red;
-        background-color: to bottom left , rgb(6, 31, 173) , rgb(139, 30, 228);
-        
-    
-    
-    
-    }
+   
     
     h1{
         
@@ -47,13 +40,7 @@
         margin-top: 0px;
     
     }
-    
-    #carroseu{
-            border: 3 solid red;
-    
-    
-    
-    }
+
     
     a:hover{
         cursor: pointer;
@@ -63,8 +50,16 @@
     
     }
     
-    #biometria{
+    .card{
         position: relative;
-        height: 200px;
-        width: 10pxpx;
+        height: 400px;
+
+    }
+
+    .cds{
+        display: flex;
+        position: relative;
+        left: 500px;
+        top: 70px;
+        
     }
