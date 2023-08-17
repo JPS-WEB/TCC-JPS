@@ -31,9 +31,30 @@ body::before{
 
 
 .corp{
-    height: 400px;
-    width: 400px;
-    justify-content: center;
+   
+    width: 476px;
+    height: 545px;
+    flex-shrink: 0;
     border-radius: 46px;
     background: rgba(61, 64, 141, 0.67);
+    position: absolute;
+   left: 550px;
+   top: 40px;
+}
+
+#user{
+    position: relative;
+    width: 173px;
+    height: 160px;
+    flex-shrink: 0;
+}
+
+#email{
+    width: 90%;
+    height: 40px;
+}
+
+#senha{
+    width: 90%;
+    height: 40px;
 }
