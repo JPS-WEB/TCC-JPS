@@ -31,30 +31,65 @@ body::before{
 
 
 .corp{
-   
-    width: 476px;
-    height: 545px;
+    display: flex;   
     flex-shrink: 0;
-    border-radius: 46px;
     background: rgba(61, 64, 141, 0.67);
     position: absolute;
-   left: 550px;
-   top: 40px;
+    width: 476px;
+    height: 545px;
+    top: 133px;
+    left: 562px;
+    border-radius: 46px;
+    
+   
 }
 
 #user{
-    position: relative;
-    width: 173px;
+   position: fixed;
+    width: 162px;
     height: 160px;
-    flex-shrink: 0;
+    top: 142px;
+    left: 719px;
+    
+    
+
 }
 
 #email{
-    width: 90%;
-    height: 40px;
+    position: fixed;
+    width: 417px;
+    height: 70px;
+    top: 350px;
+    left: 591px;
 }
 
 #senha{
-    width: 90%;
-    height: 40px;
+    position: fixed;
+    width: 417px;
+    height: 70px;
+    top: 460px;
+    left: 591px;
+}
+
+#enviar{
+    position: fixed;
+    width: 417px;
+    height: 70px;
+    top: 572px;
+    left: 591px;
+}
+
+#textouse{
+    position: fixed;
+    width: 75px;
+    height: 44px;
+    top: 270px;
+    left: 762px;
+
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
 }
