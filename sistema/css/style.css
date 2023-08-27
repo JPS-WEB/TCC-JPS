@@ -171,10 +171,56 @@ body::before{
 
  }
 
- 
+}
+
+@media (max-width: 1360px){
+    .corp{
+        position: fixed;
+        top: 20px;
+        left: 480px;
+    }
+
+    #esq{
+        position: absolute;
+        width: 159px;
+        top: 505px;
+        left: 40px;
+       
 
 
+    }
+
+    #Novo{
+        color: rgb(18, 18, 56);
+        position: absolute;
+        height: 17px;
+        left:305px;
+
+
+    }
+
+    #esq , #Novo , a {
+        color: whitesmoke;
+        text-decoration: none;
+       
+    }
+
+    #esq , #Novo{
+       
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        top: 495px;
+        height: 35px;
+    }
+
+    #esq:hover , #Novo:hover{
+        cursor: pointer;
+        opacity: 0.5;
+        background-color: #0e325e;
+        border: #092c5a solid 3px ;
+        border-radius: 5px;
+    }
 
 
 }
-
