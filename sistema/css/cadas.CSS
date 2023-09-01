@@ -31,7 +31,7 @@ body::before{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    gap: 34px;
+    gap: 45px;
     flex-shrink: 0;
     position: fixed;
     top: 66px;
@@ -41,44 +41,93 @@ body::before{
    backdrop-filter: BLUR(13.5px);
     border: 4px solid  rgba(29, 31, 78, 0.67);
     box-shadow: 0px 0px 24px 5px #17304e;
+    opacity: 20px;
 }
 
 #name{
     width: 500px;
-    height: 72px;
+    height: 40px;
     flex-shrink: 0;
+    position:relative;
+    font-size: 20px;
+    padding: 5px 15px  5px 44px;
+    bottom: 60px;
 }
 
 #email{
     width: 500px;
-    height: 72px;
+    height: 40px;
     flex-shrink: 0;
-
+    position:relative;
+    font-size: 20px;
+    padding: 5px 15px  5px 44px;
+    bottom: 60px;
 }
 
 #senha{
     width: 500px;
-    height: 72px;
+    height: 40px;
     flex-shrink: 0;
-
-
+    position:relative;
+    font-size: 20px;
+    padding: 5px 15px  5px 44px;
+    bottom: 60px;
 }
 
 #confse{
     width: 500px;
-    height: 72px;
+    height: 40px;
     flex-shrink: 0;
-
+    position:relative;
+    font-size: 20px;
+    padding: 5px 15px  5px 44px;
+    bottom: 60px;
 }
 
 #enviar{
     width: 400px;
     height: 54px;
     flex-shrink: 0;
+    position: relative;
+    bottom: 60px;
+     
+}
 
+img{
+    height: 30px;
 
 }
 
+#nome-user{
+    width: 36px;
+    height: 35px;
+    flex-shrink: 0;
+    position: relative;
+    left: 550px;
+    top: 168px;
+}
 
+#email-tex{
+    width: 36px;
+    height: 35px;
+    flex-shrink: 0;
+    position: relative;
+    left: 510px;
+    top: 253px;
+}
 
+#senhaok{
+    width: 36px;
+    height: 35px;
+    position: relative;
+    left: 470px;
+    top: 340px;
+}
 
+#senhacomf{
+    width: 36px;
+    height: 35px;
+    position: relative;
+    left: 430px;
+    top: 424px;
+}
