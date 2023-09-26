@@ -205,11 +205,135 @@ a{
     top: 31px;
     left: 10px;
     rotate: -0.26 deg;
+}
+
+@media (max-width: 1920px){
+    .corp{
+        width: 1146px;
+        height: 694px;
+        position: fixed;
+        top: 137px;
+        left: 387px;
+        border-radius: 30px;
+    }
+
+
+#user{
+    width: 232px;
+    height: 221px;
+    position: absolute;
+    top: 20px;
+    left: 639px;
+}
+
+#email{
+    width: 523.99px;
+    height: 40px;
+    position: absolute;
+    top: 337px;
+    left: 513px;
+    padding-left: 45px;
+    padding-right: 30px;
+    font-size: 24px;
+    
+}
+
+
+
+
+#arroba{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 343px;
+    left: 520px;
+    
+    
+} 
+
+#senha{
+    width: 523.99px;
+    height: 40px;
+    position: absolute;
+    top: 411px;
+    left: 513px;
+    font-size: 24px;
+    font-size: 24px;
+    padding-left: 45px;
+    padding-right: 40px;
+}
+
+#cadiado{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 415px;
+    left: 520px;
+}
+
+#olho{
+    width: 33px;
+    height: 28px;
+    position: absolute;
+    top: 415px;
+    left: 993px;
+
+
+    
+}
+
+
+
+
+#enviar{
+    width: 351.84px;
+    height: 57.3px;
+    position: absolute;
+    top: 520.82px;
+    left: 610.7px;
+
+
+   
+}
+
+#textouse{
+    width: 139.48px;
+    height: 56.03px;
+    position: absolute;
+    top: 259.77px;
+    left: 696.14px;
+    
+    
+}
+
+ #esq{
+    width: 165.87px;
+    height: 48.39px;
+    position: absolute;
+    top: 615.05px;
+    left: 892.17px;
+ }
+
+#novo{
+    width: 217.39px;
+    height: 30.56px;
+    position: absolute;
+    top: 622.69px;
+    left: 537.82px;
+
+}
+
+#projeto{
+    width: 606.6px;
+    height: 606.05px;
+    top: 40px;
+    left: 6.63px;
+    
 
 
 
 }
 
-
+}
 
 
